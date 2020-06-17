@@ -1,0 +1,36 @@
+{
+	"hardware": "Omega Onion2+",
+	"hardware_version": "1.0.0",
+	"device_identifier": "BVJ0HBKW1xmP0LBvYWxt",
+	"device_alias": "Slocky-2C76",
+	"web_socket_url": "wss://api-staging.slocky.com",
+	"api_server_url": "https://api-staging.slocky.com",
+	"local_api_server_port": 88,
+	"udp_server_port": 10011,
+	"web_socket_status_led_gpio_pin": 19,
+	"services": [
+		{
+			"service_alias": "Relay",
+			"service_type": "Relay",
+			"service_folder": "Relay",
+			"local_api_server_port": 91,
+			"settings": {
+				"relays": [
+					{	
+						"type": "keylock",
+						"relay_gpio_pin": 3,
+						"mode": "trigger_on",
+						"default_state": 0,
+						"trigger_time": 4000,
+						"feedback_enable": false,
+						"feedback_gpio_pin": 16,
+						"feedback_timout": 2000,
+						"gpio_true_value": 1,
+						"gpio_false_value": 0
+					}
+				],
+				"status_led_gpio_pin": 18
+			}
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"bootloader_version": "1.0.0",
+	"crypto_key": "OPRAHZ4OJJK6TIA820W9AT6RVAS2E69S",
+	"crypto_iv": "Q8KUZ8OHUIVLYN5S",
+	"check_firmware_on_server_interval": 300000
+}
